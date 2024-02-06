@@ -1,7 +1,7 @@
 ![N|Solid](https://mms.businesswire.com/media/20230202005307/en/1703523/22/MetisDAO_Logo.jpg)
 # Metis L2 Developer Course
 
-This is a basic course material for Metis L2. You can access every week's courses from here. 
+This is an introduction course for to start building on _Metis L2_. Before building on Metis, I'll give you short basics about the chain. You can access every week's courses from here. 
 
 
 - [Week1](https://github.com/goksualc/Metis-Introduction/blob/master/week1.md)
