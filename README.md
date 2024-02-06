@@ -9,4 +9,4 @@ This is an introduction course for to start building on _Metis L2_. Before build
 
 Besides the development you can also read Metis L2 updates from below 
 
-- [Hybrid Rollups](https://github.com/goksualc/Metis-Introduction/blob/master/Hybrid-Rollups.md)
+- [Hybrid Rollups](https://github.com/goksualc/Metis-Introduction/blob/master/extras/Hybrid-Rollups.md)
