@@ -89,7 +89,7 @@ example output:
 ## peerCount
 Returns number of peers currently connected to the client.
 
-```curl
+```console
 curl --location 'https://andromeda.metis.io/' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -103,4 +103,94 @@ curl --location 'https://andromeda.metis.io/' \
 example output:
 ```console
 {"jsonrpc":"2.0","id":74,"result":"0x0"}
+```
+
+## hashRate
+Returns the number of hashes per second that the node is mining with.
+
+```console
+curl --location 'https://andromeda.metis.io/' \
+--header 'Content-Type: application/json' \
+--data '{
+	"jsonrpc":"2.0",
+	"method":"eth_hashrate",
+	"params":[],
+	"id":71
+}'
+```
+
+example output:
+```console
+{"jsonrpc":"2.0","id":71,"result":"0x0"}
+```
+
+## Accounts
+Returns a list of addresses owned by client.
+
+```console
+curl --location 'https://andromeda.metis.io/' \
+--header 'Content-Type: application/json' \
+--data '{
+	"jsonrpc":"2.0",
+	"method":"eth_accounts",
+	"params":[],
+	"id":1
+}'
+```
+
+example output:
+```console
+{"jsonrpc":"2.0","id":1,"result":["0x00000398232e2064f896018496b4b44b3d62751f"]}
+
+```
+
+## getBalance
+Returns the balance of the account of given address.
+
+```console
+curl --location 'https://andromeda.metis.io/' \
+--header 'Content-Type: application/json' \
+--data '{
+	"jsonrpc":"2.0",
+	"method":"eth_getBalance",
+	"params":[
+		"0x4200000000000000000000000000000000000007", 
+		"latest"
+	],
+	"id":1
+}'
+```
+
+example output:
+```console
+{"jsonrpc":"2.0","id":1,"result":"0x0"}
+```
+
+You can check the balance of the account from here 
+
+```
+https://explorer.metis.io/address/0x00000398232e2064f896018496b4b44b3d62751f 
+```
+
+## getTransactionCount
+
+Returns the number of transactions sent from an address.
+
+```console
+curl --location 'https://andromeda.metis.io/' \
+--header 'Content-Type: application/json' \
+--data '{
+	"jsonrpc":"2.0",
+	"method":"eth_getTransactionCount",
+	"params":[
+		"0x407d73d8a49eeb85d32cf465507dd71d507100c1",
+		"latest"
+	],
+	"id":1
+}'
+```
+
+example output:
+```console
+{"jsonrpc":"2.0","id":1,"result":"0x0"}
 ```
