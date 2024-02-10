@@ -5,6 +5,7 @@ This is an introduction course for to start building on _Metis L2_. Before build
 
 
 - [Week1](https://github.com/goksualc/Metis-Introduction/blob/master/week1.md)
+- [Week2](https://github.com/goksualc/Metis-Introduction/blob/master/week2.md)
 
 
 Besides the development you can also read Metis L2 updates from below 
